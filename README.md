@@ -85,23 +85,6 @@ Evaluated model ability to resolve ambiguous fill-in-the-blank scenarios from th
 - **Semantic similarity models** like `multi-qa-MiniLM` enhance evaluation quality when paired with QA models.
 
 ---
-
-##   Dependencies
-
-Install the required libraries:
-
-```bash
-pip install transformers datasets evaluate sentence-transformers
-```
----
-##  Folder Structure
-```bash
-├── colab_notebook.ipynb      # Main notebook with all code and experiments
-├── README.md                 # Project documentation
-├── results/                  # Training logs and accuracy comparisons
-└── models/                   # Saved fine-tuned models (optional)
-```
----
 ## Author
 Created as part of Neural Networks and Deep Learning lab assignment focused on applying and analyzing transformer-based models in practical tasks.
 
